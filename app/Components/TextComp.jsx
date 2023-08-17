@@ -21,8 +21,8 @@ const TypingAnimation = () => {
   }, [text, currentSentenceIndex]);
 
   return (
-    <div className="absolute z-10 typing-animation bg-transparent">
-      <h1 className='text-transparent text-2xl bg-clip-text bg-gradient-to-r from-[#D3CCE3] to-[#E9E4F0]'>{text}</h1>
+    <div className="absolute z-10 top-[35vh] typing-animation bg-transparent">
+      <h1 className='text-transparent text-center text-2xl bg-clip-text bg-gradient-to-r from-[#D3CCE3] to-[#E9E4F0]'>{text}</h1>
     </div>
   );
 };
