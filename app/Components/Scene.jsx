@@ -80,7 +80,7 @@ function Scene({cameraPosition}) {
     <>
     <Canvas className="h-2xl w-2xl bg-[#12071f]">
         <SoftShadows/>
-        //       <OrbitControls
+          <OrbitControls
         enableZoom={true}
         enableRotate={true}
         enablePan={true}
