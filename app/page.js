@@ -16,7 +16,7 @@ const Home = () => {
     <div id="canvas-container" className="relative flex justify-center items-center h-screen">
       {cklicked ? null : (
         <button className="bg-blue-500 animate-bounce hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded absolute z-10 top-[65vh]" onClick={handleMoveCamera}>
-          Let's explore
+          Lets explore
         </button>
       )}
       {cklicked ? null : <TypingAnimation />}
